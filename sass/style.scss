@@ -1,0 +1,71 @@
+/* Variables */
+
+$color-one: #F3DE2C;
+$color-two: #7CB518;
+$color-three: #FB6107;
+$color-three-transparent: rgba(251, 97, 7, 0.5);
+$color-text: #5C8001;
+$color-background:  #FCF6C5;
+$font-title: 'Alfa Slab One', serif;
+$font-text: 'Gentium Book Basic', serif;
+$transition: all 0.7s;
+$transition2: all 0.3s;
+
+/* Navigation */
+
+.navigation {
+    background: $color-one;
+    padding: 12px 0;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 36px;
+    position: relative;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: $color-text;
+    transition: all 0.1s;
+}
+
+.navigation a:hover {
+    color: $color-background;
+    transition: all 0.1s;
+}
+
+.navigation ul ul li {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.navigation ul ul {
+    display: none;
+    position: absolute;
+    background: $color-background;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 12px;
+}
+
+.navigation li:hover ul {
+    display: block;
+    text-align: center;
+}
+
+.navigation ul ul a {
+    color: $color-three;
+    display: block;
+    padding: 0 24px;
+}
+
+.navigation ul ul a:hover {
+    color: $color-two;
+}
