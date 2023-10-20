@@ -174,3 +174,20 @@ header {
     margin-top: 0;
 }
 
+/* PORTFOLIO */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .card {
+    text-align: center;
+}
+
+.portfolio .card-image img {
+    width: 70%;
+    object-fit: cover;
+}
