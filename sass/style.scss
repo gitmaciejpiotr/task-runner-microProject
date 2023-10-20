@@ -5,12 +5,34 @@ $color-two: #7CB518;
 $color-three: #FB6107;
 $color-three-transparent: rgba(251, 97, 7, 0.5);
 $color-text: #5C8001;
-$color-background:  #FCF6C5;
+$color-background: #FCF6C5;
 $font-brand: 'Lobster', sans-serif;
 $font-title: 'Oswald', sans-serif;
 $font-text: 'Lora', serif;
 $transition: all 0.7s;
 $transition2: all 0.3s;
+
+/* Global */
+
+body {
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background-image: url(https://i.postimg.cc/fbnRFqbv/pexels-aleks-magnusson-3892369.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
 
 /* Navigation */
 
@@ -18,13 +40,14 @@ $transition2: all 0.3s;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 30px;
+    padding-top: 40px;
 }
 
 .navigation a {
     text-decoration: none;
     font-family: $font-title;
     font-weight: 300;
+    color: white;
 }
 
 .navigation .brand-logo {
@@ -47,5 +70,42 @@ $transition2: all 0.3s;
 
 /* Splash */
 
+.splash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin-top: 110px;
+}
 
+.splash-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
 
+.page-title {
+    font-size: 48px;
+    margin-top: 0;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.page-subtitle {
+    font-family: $font-title;
+    font-size: 96px;
+    margin-top: 0;
+}
+
+.splash button {
+    font-family: $font-title;
+    padding: 20px 40px;
+    color: white;
+    background: #f3dc09;
+    font-size: 24px;
+    border-radius: 5px;
+}
