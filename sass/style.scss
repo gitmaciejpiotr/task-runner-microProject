@@ -15,6 +15,10 @@ $transition2: all 0.3s;
 /* Global */
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
 }
 
@@ -110,5 +114,63 @@ header {
     border-radius: 5px;
 }
 
+/* Services */
 
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.services h2 {
+    font-size: 56px;
+    font-family: $font-title;
+    margin-bottom: 0;
+}
+
+.services h4 {
+    font-size: 18px;
+    font-family: $font-text;
+    margin-top: 0;
+    color: grey;
+}
+
+.services .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin-top: 50px;
+}
+
+.services .box .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    color: #f3dc09;
+    border: 3.5px solid #f3dc09;
+    border-radius: 90%;
+    padding: 15px;
+    font-size: 28px;
+}
+
+.services .box h3 {
+    font-size: 24px;
+    font-family: $font-title;
+    margin-bottom: 15px;
+    margin-top: 18px;
+}
+
+.services .box p {
+    font-size: 15px;
+    font-family: $font-text;
+    color: grey;
+    margin-top: 0;
+}
 
