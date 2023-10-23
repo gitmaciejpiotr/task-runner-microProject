@@ -317,3 +317,90 @@ footer ul li a {
 footer ul li i {
     color: white;
 }
+
+/* Media */
+
+@media (max-width: 768px) {    
+    .navigation {
+        display: none;  
+        background: $color-background;
+    }
+    
+    .splash-inner {
+        max-width: 80%;
+    }
+    
+    .page-title {
+        margin-top: 100px;   
+        font-size: 40px;
+        text-shadow: 2px 2px black;
+        text-align: center;
+    }
+    
+    .page-subtitle {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .services {
+        text-align: center;
+        padding: 0;
+    }
+
+    .services .box {
+        width: 80%;
+    }
+    
+    .services .box h3 {
+        font-size: 32px;
+    }
+    
+    .services .box p {
+        font-size: 20px;
+    }
+
+    .portfolio {
+        text-align: center;
+        padding: auto;
+    }
+
+    .portfolio .card {
+        width: 100%;
+    }
+
+    .portfolio .card-body h3 {
+        font-size: 28px;
+    }
+
+    .portfolio .card-body p {
+        font-size: 22px;
+    } 
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        width: 50%;
+        font-size: 20px;
+        margin: 20px 0 0 0;
+    }
+
+    footer ul {
+        padding: 0;
+    }
+    
+    footer ul li {
+        font-size: 24px;
+        border-radius: 90%;
+        width: 40px;
+        height: 40px;
+        margin: 28px 10px;
+        text-align: center;
+        transition: $transition2;
+    }
+}
+
+
+

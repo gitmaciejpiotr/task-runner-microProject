@@ -26,6 +26,28 @@
                 </ul>
             </div>
         </nav>
+        <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              
+              <ul id="menu">
+                  <li>
+                      <a href="#">o nas</a>
+                      <ul>
+                          <li><a href="#">ekipa</a></li>
+                          <li><a href="#">misja</a></li>
+                          <li><a href="#">historia</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="#">co robimy</a></li>
+                  <li><a href="#">portfolio</a></li>
+                  <li><a href="#">kontakt</a></li>
+              </ul>
+            </div>
+          </nav>
         <div class="splash">
             <div class="splash-inner">
                 <h2 class="page-title"><i>Welcome To Our Studio!</i></h2>
@@ -34,34 +56,36 @@
             </div>
         </div>
     </header>
-    <section class="p-5 mx-5 services">
+    <section class="pt-5 pb-5 services">
         <h2>SERVICES</h2>
         <h4><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</i></h4>
         <div class="container">
-            <div class="row justify-content-around">
-                <div class="box col-md-3 mb-3">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-basket-shopping"></i>
+            <div class="row">
+                <div class="d-flex flex-column flex-lg-row justify-content-around align-items-center">
+                    <div class="box col-md-3 mb-3">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </div>
+                        <h3>E-Commerce</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, natus? Quae
+                            aliquid saepe ipsam facilis eum animi sequi nihil ipsum.</p>
                     </div>
-                    <h3>E-Commerce</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, natus? Quae
-                        aliquid saepe ipsam facilis eum animi sequi nihil ipsum.</p>
-                </div>
-                <div class="box col-md-3 mb-3">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-laptop"></i>
+                    <div class="box col-md-3 mb-3">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-laptop"></i>
+                        </div>
+                        <h3>Responsive Web</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, natus? Quae
+                            aliquid saepe ipsam facilis eum animi sequi nihil ipsum.</p>
                     </div>
-                    <h3>Responsive Web</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, natus? Quae
-                        aliquid saepe ipsam facilis eum animi sequi nihil ipsum.</p>
-                </div>
-                <div class="box col-md-3 mb-3">
-                    <div class="icon-box">
-                        <i class="fa-solid fa-lock"></i>
+                    <div class="box col-md-3 mb-3">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <h3>Web Security</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, natus?quid saepe ipsam
+                            facilis eum animi sequi nihil ipsum.</p>
                     </div>
-                    <h3>Web Security</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, natus?quid saepe ipsam
-                        facilis eum animi sequi nihil ipsum.</p>
                 </div>
             </div>
         </div>
@@ -69,14 +93,15 @@
     <section class="portfolio pb-5 mt-5">
         <h2>OUR PORTFOLIO</h2>
         <h4><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</i></h4>
-        <div class="container">
+        <div class=" col-10 container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="row justify-content-center">
-                        <div class="col-sm-6 col-lg-3">
+                    <div class="cards-container row justify-content-center">
+                        <div class="col-md-8 col-lg-3 mb-5 mb-lg-0 p-0">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://i.postimg.cc/KzBMHbYN/pexels-mister-mister-2442888.jpg" alt="Trzy różne czekolady">
+                                    <img src="https://i.postimg.cc/KzBMHbYN/pexels-mister-mister-2442888.jpg"
+                                        alt="Trzy różne czekolady">
                                 </div>
                                 <div class="card-body">
                                     <h3>Leather Bag</h3>
@@ -84,10 +109,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-lg-3">
+                        <div class="col-md-8 col-lg-3 mb-5 mb-lg-0 p-0">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://i.postimg.cc/qB2smshT/pexels-andrew-neel-6633921.jpg" alt="Czekolada Toffee">
+                                    <img src="https://i.postimg.cc/qB2smshT/pexels-andrew-neel-6633921.jpg"
+                                        alt="Czekolada Toffee">
                                 </div>
                                 <div class="card-body">
                                     <h3>Green Wallpaper</h3>
@@ -95,10 +121,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-lg-3 mb-5">
+                        <div class="col-md-8 col-lg-3 mb-5 p-0">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://i.postimg.cc/4d96RtWp/pexels-davide-baraldi-11813187.jpg" alt="Biała czekolada">
+                                    <img src="https://i.postimg.cc/4d96RtWp/pexels-davide-baraldi-11813187.jpg"
+                                        alt="Biała czekolada">
                                 </div>
                                 <div class="card-body">
                                     <h3>Some Drawings</h3>
@@ -107,11 +134,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row justify-content-center pb-5">
-                        <div class="col-sm-6 col-lg-3">
+                    <div class="cards-container row justify-content-center pb-5">
+                        <div class="col-md-8 col-lg-3 mb-5 mb-lg-0 p-0">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://i.postimg.cc/13sJ0WJ2/pexels-tim-mossholder-942317.jpg" alt="Trzy różne czekolady">
+                                    <img src="https://i.postimg.cc/13sJ0WJ2/pexels-tim-mossholder-942317.jpg"
+                                        alt="Trzy różne czekolady">
                                 </div>
                                 <div class="card-body">
                                     <h3>Nice Neon</h3>
@@ -119,10 +147,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-lg-3">
+                        <div class="col-md-8 col-lg-3 mb-5 mb-lg-0 p-0">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="https://i.postimg.cc/WbR9zpr2/pexels-pixabay-60504.jpg" alt="Czekolada Toffee">
+                                    <img src="https://i.postimg.cc/WbR9zpr2/pexels-pixabay-60504.jpg"
+                                        alt="Czekolada Toffee">
                                 </div>
                                 <div class="card-body">
                                     <h3>High Protection</h3>
@@ -130,10 +159,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-lg-3">
+                        <div class="col-md-8 col-lg-3 p-0">
                             <div class="card">
-                                <div class="card-image">
-                                    <img src="https://i.postimg.cc/kMR17R21/pexels-brett-sayles-1990764.jpg" alt="Biała czekolada">
+                                <div class="card-image mb-5 mb-md-0">
+                                    <img src="https://i.postimg.cc/kMR17R21/pexels-brett-sayles-1990764.jpg"
+                                        alt="Biała czekolada">
                                 </div>
                                 <div class="card-body">
                                     <h3>Important Lock</h3>
