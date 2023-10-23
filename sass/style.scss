@@ -402,5 +402,26 @@ footer ul li i {
     }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navigation .brand-logo {
+        font-size: 56px;
+    }
+
+    .navigation .nav-options {
+        font-size: 24px;
+    }
+
+    .page-subtitle {
+        font-size: 80px;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 
