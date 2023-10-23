@@ -1,11 +1,7 @@
 /* Variables */
 
-$color-one: #F3DE2C;
-$color-two: #7CB518;
-$color-three: #FB6107;
-$color-three-transparent: rgba(251, 97, 7, 0.5);
-$color-text: #5C8001;
-$color-background: #FCF6C5;
+$color-one: gold;
+$color-two: white;
 $font-brand: 'Lobster', sans-serif;
 $font-title: 'Oswald', sans-serif;
 $font-text: 'Lora', serif;
@@ -51,13 +47,13 @@ header {
     text-decoration: none;
     font-family: $font-title;
     font-weight: 300;
-    color: white;
+    color: $color-two;
 }
 
 .navigation .brand-logo {
     font-family: $font-brand;
     font-size: 40px;
-    color: gold;
+    color: $color-one;
 }
 
 .nav-options ul {
@@ -76,7 +72,7 @@ header {
 }
 
 .nav-options ul li a:hover {
-    color: gold;
+    color: $color-one;
     transition: $transition;
 }
 
@@ -93,7 +89,7 @@ header {
     right: 5%;
     font-size: 72px;
     font-family: $font-brand;
-    color: gold;
+    color: $color-one;
     text-decoration: none;
 }
 
@@ -113,14 +109,14 @@ header {
 #menuToggle a
 {
   text-decoration: none;
-  color: white;
+  color: $color-two;
   
   transition: color 0.3s ease;
 }
 
 #menuToggle a:hover
 {
-  color: gold;
+  color: $color-one;
 }
 
 
@@ -152,7 +148,7 @@ header {
   margin-bottom: 5px;
   position: relative;
   
-  background: gold;
+  background: $color-one;
   border-radius: 3px;
   
   z-index: 1;
@@ -182,7 +178,7 @@ header {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: gold;
+  background: $color-one;
 }
 
 /*
@@ -269,7 +265,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    color: white;
+    color: $color-two;
 }
 
 .page-title {
@@ -288,7 +284,7 @@ header {
 .splash button {
     font-family: $font-title;
     padding: 20px 40px;
-    color: white;
+    color: $color-two;
     background: #f3dc09;
     font-size: 24px;
     border: none;
@@ -394,7 +390,7 @@ header {
 
 .portfolio .card {
     text-align: center;
-    background: white;
+    background: $color-two;
 }
 
 .portfolio .card-body h3 {
@@ -434,7 +430,7 @@ footer {
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    background: white;
+    background: $color-two;
     width: 100%;
 }
 
@@ -486,7 +482,7 @@ footer ul li a {
 }
   
 footer ul li i {
-    color: white;
+    color: $color-two;
 }
 
 /* Media */
@@ -494,7 +490,6 @@ footer ul li i {
 @media (max-width: 768px) {    
     .navigation {
         display: none;  
-        background: $color-background;
     }
 
     #menuToggle {
